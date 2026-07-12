@@ -1,0 +1,114 @@
+[project]
+name = "quantum-computing-lab"
+version = "0.1.0"
+description = "A comprehensive quantum computing laboratory focused on research, simulation, algorithm development and practical experimentation."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+authors = [
+    { name = "Lele" }
+]
+keywords = [
+    "quantum-computing",
+    "qiskit",
+    "pennylane",
+    "cirq",
+    "jupyter",
+    "quantum-algorithms",
+    "quantum-machine-learning",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "cirq",
+    "ipykernel",
+    "jupyterlab",
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "pandas",
+    "pennylane",
+    "plotly",
+    "pylatexenc",
+    "qiskit",
+    "qiskit-aer",
+    "qutip",
+    "scipy",
+    "sympy",
+]
+
+[dependency-groups]
+dev = [
+    "mypy",
+    "nbqa",
+    "pre-commit",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quantum_computing_lab"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = [
+    ".venv",
+    ".ipynb_checkpoints",
+    "datasets",
+    "references",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
+    "SIM",
+]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = [
+    "-ra",
+    "--strict-config",
+    "--strict-markers",
+]
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_configs = true
+exclude = [
+    "^notebooks/",
+    "^examples/",
+]
