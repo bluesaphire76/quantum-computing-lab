@@ -6,7 +6,7 @@ platform.
 ## Foundation Milestone
 
 - [x] M0.1 — Repository Architecture
-- [ ] M0.2 — Academy Structure
+- [x] M0.2 — Academy Structure
 - [ ] M0.3 — Learning Model
 - [ ] M0.4 — Module Templates
 - [ ] M0.5 — Governance
