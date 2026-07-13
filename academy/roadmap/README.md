@@ -7,7 +7,7 @@ platform.
 
 - [x] M0.1 — Repository Architecture
 - [x] M0.2 — Academy Structure
-- [ ] M0.3 — Learning Model
+- [x] M0.3 — Learning Model
 - [ ] M0.4 — Module Templates
 - [ ] M0.5 — Governance
 - [ ] M0.6 — Documentation Foundation
