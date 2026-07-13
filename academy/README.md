@@ -12,6 +12,7 @@ research activities.
 | Component | Purpose |
 |---|---|
 | Curriculum | Progressive educational content organized by level |
+| Learning Model | Educational structure, assessment and progression rules |
 | Learning Paths | Role-based and objective-based study paths |
 | Assessments | Quizzes, practical evaluations and final assessments |
 | Certification | Future open-source completion and achievement framework |
@@ -20,6 +21,11 @@ research activities.
 | Templates | Standard structures for modules and educational content |
 | Governance | Rules and processes for maintaining educational quality |
 | Roadmap | Planned Academy milestones and curriculum development |
+
+## Learning Model
+
+The Academy's educational rules are defined in the
+[Academy Learning Model](learning-model/README.md).
 
 ## Curriculum Levels
 
