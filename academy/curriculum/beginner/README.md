@@ -66,5 +66,14 @@ Previous knowledge of quantum mechanics is not required.
 
 ## Completion Criteria
 
-The detailed completion criteria will be defined during the Academy learning
-model milestone.
+The Beginner Track follows the Academy
+[progression model](../../learning-model/progression-model.md) and
+[assessment model](../../learning-model/assessment-model.md).
+
+Track completion will require:
+
+- Completion of all required modules
+- Completion of mandatory exercises
+- Successful execution of required notebooks
+- Achievement of the defined assessment threshold
+- Completion of the final Bell-state challenge
